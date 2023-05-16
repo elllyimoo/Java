@@ -50,6 +50,7 @@ public class Main {
                         new Const(2)
                 )
         );
+        System.out.println("hi");
         System.out.println("f2(" + x + ") = " + f2.calculate(x));
         System.out.println("f2'(" + x + ") = " + f2.derivative().calculate(x));
     }
